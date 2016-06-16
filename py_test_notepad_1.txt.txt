@@ -1,0 +1,29 @@
+import urllib
+import urllib3
+import numpy
+
+x=6
+y=8
+
+def name():
+    name = str(input("blabla: "))
+    print(str("You entered: ")+str(name))
+    
+def age():
+    age = int(input("please enter your age: "))
+    print(str("You entered: "),int(age))
+
+option = str(input("please enter an option (name or age): "))
+
+if option==str("name"):
+    name()
+elif option==str("age"):
+    age()
+
+else: print("sukkel je hebt niks ingevuld")
+
+
+
+
+
+print ("eelke")
