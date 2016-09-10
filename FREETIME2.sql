@@ -3,5 +3,8 @@ where BIER = 1 and WORK = 0
 and WEEKEND = 1
 AND SUN = 1
 AND NETFLIX = 1
+---TOEV1
+AND PIZZA = 1
 ;
+
 
